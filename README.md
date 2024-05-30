@@ -1,1 +1,2 @@
-# Sinto Fake REST API
+# Sinto Dolgozat
+
