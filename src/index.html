@@ -1,0 +1,53 @@
+
+<!--
+File: index.html
+Author: Tukolicza Péter
+Copyright: 2024, Tukolicza Péter
+Group: Szoft I/1/N
+Date: 2024-05-30
+Github: https://github.com/axiin
+Licenc: GNU GPL
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellipszoid</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ellipszoid</h1>
+      <div class="form">
+        <div class="input">
+          <label for="sideA" class="form-label">A oldal</label>
+          <input type="text" class="form-control" id="sideA" required>
+          
+        </div>
+        <div class="input">
+          <label for="sideB" class="form-label">B oldal</label>
+          <input type="text" class="form-control" id="sideB" required>
+          
+        </div>
+        <div class="input">
+          <label for="sideC" class="form-label">C oldal</label>
+          <input type="text" class="form-control" id="sideC" required>
+          
+        </div>
+        <div>
+          <button id="calcButton" class="btn btn-secondary mt-2">Számít</button>
+        </div>
+        <div class="input">
+          <label for="area" class="form-label">Terület</label>
+          <input type="text" class="form-control" id="area" readonly>
+        </div>
+      </div>
+     
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
